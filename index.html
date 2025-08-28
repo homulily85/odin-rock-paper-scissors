@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="scripts.js" defer></script>
+    <style>
+        body{
+            width: 500px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        #container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            gap: 16px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Rock Paper Scissors Game</h1>
+    <h2>Human vs Computer</h2>
+    <div id="container">
+        <button class="human-choice">Rock</button>
+        <button class="human-choice">Paper</button>
+        <button class="human-choice">Scissors</button>
+    </div>
 </body>
 </html>
